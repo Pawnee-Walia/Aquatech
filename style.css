@@ -4,14 +4,15 @@ html {
 
 body{
     
-    background: linear-gradient( #4287f5 0%,#4bf542 100%);
+    background: linear-gradient( #4287f5 0%,#42f5f5 100%);
 }
 
 #map iframe
 {
-    width: 70%;
+    width: 100%;
     padding-top: 5px;
-    padding-left: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -22,8 +23,7 @@ body{
 }
 #welcome{
     margin-top: 100px;
-     padding:70px;
-    text-align:center:
+   
 }
 
 
@@ -42,10 +42,6 @@ height: 20px;
 background-color:white;
 }
  
-input
-{
-    background: grey
-}
 
 .announcement{
 background-color:#337ab7;
@@ -87,8 +83,8 @@ height: 30px;
 
 #myCarousel img
 {
-   width: 150px;
-    height: 400px;
+  
+    height: 500px;
   
   
        }
@@ -126,4 +122,8 @@ height: 30px;
 .travel_mainDiv h5 , .travel_mainDiv p
 {
 margin-left: 20px;
+}
+
+#details {
+    margin-left: 500px;
 }
