@@ -10,7 +10,8 @@ body{
 #map iframe
 {
     margin-left: 120px;
-    width: 80%;
+     margin-right: 120px;
+    width: 85%;
     padding-top: 5px;
     padding-left: 50px;
     padding-right: 50px;
@@ -29,7 +30,8 @@ body{
 
 .contact_1
 {
-    margin-left: 180px;
+    margin-left: auto;
+    padding-left: 50px;
 }
 
 .contact_1 h3
@@ -42,7 +44,8 @@ body{
 }
 
 #contactUs{
-    margin-left: 180px;
+   margin-left: auto;
+    padding-left: 50px;
 }
 
 .announcement{
@@ -70,7 +73,7 @@ height: 30px;
 
 
 #achievementsID{
- padding-bottom: 10px;
+ padding-bottom: 25px;
 }
 
 
