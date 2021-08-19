@@ -9,9 +9,8 @@ body{
 
 #map iframe
 {
-    margin-left: 120px;
-     margin-right: 120px;
-    width: 85%;
+   
+    width: 100%;
     padding-top: 5px;
     padding-left: 50px;
     padding-right: 50px;
@@ -28,11 +27,7 @@ body{
    
 }
 
-.contact_1
-{
-    margin-left: auto;
-    padding-left: 50px;
-}
+
 
 .contact_1 h3
 {
@@ -45,20 +40,12 @@ body{
 
 
 
-#contactUs{
-   margin-left: auto;
-    padding-left: 50px;
-}
+
 
 .announcement{
 background-color:#f7fcfc;
 width: 100%;
 height: 30px;
-}
-
-.navbar-header{
-    
-    height:60px;
 }
 
 
@@ -71,9 +58,6 @@ height: 30px;
     
 }
 
-.navbar-header img:hover{
-    background-color: #1b3ff2;
-}
 
 #marqueeStyle{
   width:100%;
@@ -97,7 +81,7 @@ height: 30px;
 #myCarousel
 {
    
-  width: 800;
+  
     border-style: ridge;
     border-color: azure;
     border-width: 2px;
@@ -124,31 +108,52 @@ height: 30px;
 }
 
 
-
-.travel_mainDiv
+.workpics img
 {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-  border: 1px solid #c7c7c7;
+   width: 550px;
+  height:250px;
 }
 
-.travel_mainDiv img
-{
-  width: 550px;
-  height:250px;
-} 
 
-.travel_mainDiv hr
+.workpics hr
 {
     width: 100%; 
 }
 
-.travel_mainDiv h5 , .travel_mainDiv p
+.workpics h5 , .workpics p
 {
 margin-left: 20px;
 }
 
 #details {
     margin-left: 500px;
+}
+
+
+
+.modal-content
+{
+  margin-top: 100px;
+}
+
+.img_modal
+  {
+    display: inline-block;
+     
+  }
+.p_modal
+  {
+      margin-top: 10px;
+}
+.modal-body
+{
+    text-align: center
+}
+
+#testimonials h3{
+    font-size: 15px;
+}
+
+#testimonials h4{
+    font-size: 20px;
 }
